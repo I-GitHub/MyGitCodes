@@ -37,7 +37,7 @@ C. 	From, To, Cc	:	Here correct email needs to be provided in the SEND-MAILMESSA
 
 
 
-# Deployment of the script:
+# Deployment process:
 
 ServiceMonitor.ps1 script can be scheduled in task scheduler  by creating a new job in it.  Reference path of this script needs to be passed so that it can be triggered by the job.
 
