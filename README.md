@@ -13,6 +13,7 @@ Automation will prove beneficial in mitigating the risk due to manual monitoring
 # Introduction:
 
 This powershell script is used to track status of window service on a given server whether it is running or not. And if the service is not up, this will let the recipients/audience know about it to take a corrective action.
+
 Special feature of this script is that it also tries to bring the server up implcitly if the service is found to be stopped state. Also, this follows with mail notifications depending on outcome to intended audience/recipients whether retry attempt has succeeded or failed.
 
 # Benefits:
@@ -38,7 +39,7 @@ C. 	From, To, Cc	:	Here correct email needs to be provided in the SEND-MAILMESSA
 
 # Deployment of the script:
 
-CheckWindowService.ps1 script can be scheduled in task scheduler  by creating a new job in it.  Reference path of this script needs to be passed so that it can be triggered by the job.
+ServiceMonitor.ps1 script can be scheduled in task scheduler  by creating a new job in it.  Reference path of this script needs to be passed so that it can be triggered by the job.
 
 
 
